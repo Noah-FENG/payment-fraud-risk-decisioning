@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "raw_dir": "data/raw",
+  "processed_dir": "data/processed",
+  "run_dir": "artifacts/main",
+  "split_fractions": {"train": 0.55, "tune": 0.15, "calibration": 0.10, "policy": 0.10, "test": 0.10},
+  "review_rates": [0.001, 0.005, 0.01],
+  "primary_review_rate": 0.01,
+  "batch_seconds": 86400,
+  "xgboost_candidates": [
+    {"n_estimators": 250, "max_depth": 4, "learning_rate": 0.07, "min_child_weight": 20, "subsample": 0.8, "colsample_bytree": 0.8},
+    {"n_estimators": 400, "max_depth": 6, "learning_rate": 0.05, "min_child_weight": 40, "subsample": 0.8, "colsample_bytree": 0.8}
+  ],
+  "logistic_max_iter": 3000,
+  "threads": 4,
+  "shap_sample": 300,
+  "cost_scenarios": [
+    {"name": "low_loss", "loss_rate": 0.25, "review_effectiveness": 0.5, "review_cost": 1.0, "false_positive_cost": 2.0},
+    {"name": "base", "loss_rate": 0.5, "review_effectiveness": 0.75, "review_cost": 2.0, "false_positive_cost": 5.0},
+    {"name": "high_loss", "loss_rate": 1.0, "review_effectiveness": 0.9, "review_cost": 5.0, "false_positive_cost": 10.0}
+  ]
+}
