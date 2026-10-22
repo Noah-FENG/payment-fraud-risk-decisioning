@@ -20,7 +20,7 @@ Sources: [data description](https://www.kaggle.com/competitions/ieee-fraud-detec
 
 - **Rule 7A** limits data use to non-commercial purposes, including participating in the competition, the Kaggle forums, and academic research and education. Research use here does not extend to a production payment system or any commercial use.
 - **Rule 7B** restricts giving the data to people who are not competition participants and requires reasonable security measures. The project therefore keeps raw data, per-transaction derivatives and models local; a file does not become publishable because it is called "processed".
-- **Rule 8B** allows public competition code but requires that the code also be available in the competition's Kaggle forum or kernels. Meet this before publishing the repository on GitHub; see [PUBLISHING](PUBLISHING.md) for the checklist. The MIT license covers the source code only.
+- **Rule 8B** covers sharing competition code publicly. The competition has ended and this repository is an independent study project; it contains source code only. The MIT license covers the source code only.
 
 ## Getting the data
 

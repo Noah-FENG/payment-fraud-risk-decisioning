@@ -97,4 +97,4 @@ docs/      Charter, data rules, feature availability, GNN decision, Tableau guid
 
 Source: Addison Howard et al., *IEEE-CIS Fraud Detection*, Kaggle, 2019 ([competition](https://www.kaggle.com/competitions/ieee-fraud-detection), [rules](https://www.kaggle.com/competitions/ieee-fraud-detection/rules)).
 
-The source code is under the [MIT license](LICENSE), which does not grant rights to the competition data, derived records or third-party material. Competition rule 8B requires publicly shared competition code to also be available in the competition's Kaggle forum or kernels; this repository does not post anything to Kaggle automatically.
+The source code is under the [MIT license](LICENSE), which does not grant rights to the competition data, derived records or third-party material. The competition has ended; this repository is an independent study project and contains source code only, with no competition data.
